@@ -14,7 +14,6 @@ public:
         next = NULL;
     }
 };
-
 int main()
 {
     int n;
@@ -67,7 +66,6 @@ int main()
             temp->next = p;
             delete preptr;
         }
-        
     }
     Node *ptr2=start;
     cout<<"\n updated linked list ";
