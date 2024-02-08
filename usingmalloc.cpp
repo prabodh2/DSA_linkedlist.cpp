@@ -6,13 +6,11 @@ struct Node {
 
     Node(int value) : data(value), next(nullptr) {} 
 };
-
 Node *insert(Node *head, int value) {
     Node *newNode = new Node(value); // new nodes
     newNode->next = head;
     return newNode;
 } // new node
-
 void display(Node *head) {
     Node *current = head;
     while (current != nullptr) {
@@ -21,7 +19,6 @@ void display(Node *head) {
     }
     cout << endl;
 }; 
-
 int main() {
   Node *head = nullptr; // first node
 
@@ -31,6 +28,5 @@ int main() {
   // This is because a linkedlist generally follows fifo
     cout << "Linked List: ";
     display(head);
-
     return 0;
 }
