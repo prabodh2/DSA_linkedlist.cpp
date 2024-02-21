@@ -5,8 +5,7 @@ using namespace std;
 struct Node {
     int data;
     Node* next;
-    Node(int value) : data(value), next(nullptr) {}
-};
+    Node(int value) : data(value), next(nullptr) {}};
 Node* insert(Node* head, int value) {
     Node* newNode = new Node(value);
     newNode->next = head;
