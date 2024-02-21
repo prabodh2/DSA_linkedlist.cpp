@@ -12,13 +12,11 @@ public:
         this->data = 0;
         this->next = NULL;
     }
-
     Node(int data) {
         this->data = data;
         this->next = NULL;
     }
     };
-
     void searchNode(Node *start, int data) {
     if (start == NULL) {
         cout << "Linked List is empty" << endl;
