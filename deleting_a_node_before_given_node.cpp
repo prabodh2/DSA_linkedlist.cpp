@@ -11,8 +11,7 @@ public:
     {
         cout << "Enter data: ";
         cin >> data;
-        next = NULL;
-    }
+        next = NULL;}
 };
 int main()
 {
