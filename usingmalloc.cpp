@@ -21,7 +21,6 @@ void display(Node *head) {
 }; 
 int main() {
   Node *head = nullptr; // first node
-
   head = insert(head, 3); // last node
     head = insert(head, 4);
   head = insert(head, 1); // first node
