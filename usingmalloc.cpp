@@ -24,7 +24,6 @@ int main() {
   head = insert(head, 3); // last node
     head = insert(head, 4);
   head = insert(head, 1); // first node
-  // This is because a linkedlist generally follows fifo
     cout << "Linked List: ";
     display(head);
     return 0;
