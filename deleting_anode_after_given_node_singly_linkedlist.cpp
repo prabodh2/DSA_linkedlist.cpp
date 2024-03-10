@@ -46,7 +46,6 @@ int main()
     }
     else
     {
-        
         while (preptr->data != a)
         {
             
