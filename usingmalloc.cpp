@@ -20,7 +20,7 @@ void display(Node *head) {
     cout << endl;
 }; 
 int main() {
-  Node *head = nullptr; // first node
+  Node *head = nullptr; 
   head = insert(head, 3); // last node
     head = insert(head, 4);
   head = insert(head, 1); // first node
